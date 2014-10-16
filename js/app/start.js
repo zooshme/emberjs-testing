@@ -3,11 +3,13 @@ define([
 	'data',
 	'qunit'
 ], function() {
+	Ember.run.begin();
 	var App = window.App = Ember.Application.create();
 
 	App.Router.map(function() {
 
 	});
+	Ember.run.end();
 
 	/* ================= Testing ==================== */
 
